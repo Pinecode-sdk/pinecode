@@ -1,0 +1,36 @@
+export const NETWORKS = {
+  base: {
+    chainId: 8453,
+    name: "Base Mainnet",
+    rpcUrl: "https://mainnet.base.org",
+    gateway: "https://api.pinecode.io",
+    explorer: "https://basescan.org",
+    contracts: {
+      registry: "0x4Ae1f8eC9b3c4b2a18d44F12c0aE8b9cC2199AbD",
+      staking: "0x822cF9aED39c44b1AeF8b71082EeA9c12CC3Dc70",
+      rewards: "0x3104a9F1cAaB22C92e7Df88aC04E1B22cDe7Aae0",
+      token: "0xE1C7d44a9aCe22F1238b71082AAB5c12CC3Df901",
+      forwarder: "0x5dCe40f1A2384C12CD8b91082A4B5c12CC3df227",
+      payments: "0xA12B4cFaCDeb22B1d99FE712CCa4Bb29bAaf18cD",
+      treasury: "0x6e2DcC1abdBe44C29Fcb02e0aAB31C9c12c97dB1",
+      governor: "0x82aD41912cf7e2bE4F1aF4c2C9aaef03c4d8e2c0",
+    },
+  },
+  "base-sepolia": {
+    chainId: 84532,
+    name: "Base Sepolia",
+    rpcUrl: "https://sepolia.base.org",
+    gateway: "https://api-sepolia.pinecode.io",
+    explorer: "https://sepolia.basescan.org",
+    contracts: {
+      registry: "0x1AaA4F88c12e9F4cE8e8F3aF1c4dc8FFb1234567",
+      staking: "0x2bbB5F99d23eaF5dF9e9F4bF2d5ed9aaC2345678",
+      rewards: "0x3cccc6Faae34fb6eFaeaF5cF3e6fe0bbD3456789",
+      token: "0x4dddd7Fbbf45fc7fFbfb06dF4f7fF1ccE456789a",
+      forwarder: "0x5eeee8Fccc56fd8aFcfc17eF5a8aa2ddF56789ab",
+      payments: "0x6ffff9Fddd67fe9bFded28fF6b9bb3eef6789abc",
+      treasury: "0x70000aFeee78ffacAfeF39bF7caac4ffa789abcd",
+      governor: "0x81111bFfff89aabbBaef4abF8dbbd5aab89abcde",
+    },
+  },
+} as const;
