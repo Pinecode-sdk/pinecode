@@ -7,9 +7,9 @@
 [![npm](https://img.shields.io/npm/v/@pinecode/sdk.svg?color=2DD4BF)](https://npmjs.com/package/@pinecode/sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2DD4BF.svg)](./LICENSE)
 [![Built on Base](https://img.shields.io/badge/Built%20on-Base-0052FF.svg)](https://base.org)
-[![Docs](https://img.shields.io/badge/docs-pinecode.io-2DD4BF.svg)](https://pinecode.io/docs)
+[![Docs](https://img.shields.io/badge/docs-pinecode.io-2DD4BF.svg)](https://pinecode.xyz/docs)
 
-[Website](https://pinecode.io) · [Docs](https://pinecode.io/docs) · [Explorer](https://pinecode.io/explore)
+[Website](https://pinecode.xyz) · [Docs](https://pinecode.xyz/docs) · [Explorer](https://pinecode.xyz/explore)
 
 </div>
 
